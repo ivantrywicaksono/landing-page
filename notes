@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>Notes
+    </title>
+    <link rel="stylesheet" href="content://com.mi.android.globalFileexplorer.myprovider/external_files/00vantric/css/style1st.css" />
+    <meta name="viewport" content="width=device-width", "initial-scale=1" />
+  </head>
+  <body>
+    <h1 class="webtitle">My Notes</h1>
+  </body>
+  
+ <footer>
+    Made by Ivan Try Wicaksono | January 23rd, 2022
+  </footer>
+</html>
