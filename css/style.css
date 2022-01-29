@@ -1,0 +1,11 @@
+body, a {
+    font-family: monospace;
+    color: #DADCE0;
+    background-color: #17181B;
+}
+div, h1, h3, footer {
+    text-align: center;
+}
+button {
+    margin: 0px auto 20px;
+}
