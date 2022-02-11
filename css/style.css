@@ -1,11 +1,58 @@
-body, a {
-    font-family: monospace;
-    color: #DADCE0;
-    background-color: #17181B;
+/*rgb(251, 251, 251); rgb(234, 220, 166)
+; rgb(226, 194, 117); rgb(195, 106, 45);*/
+/*#C36A2D; #E2C275; #EADCA6; #FBFBFB*/
+/*E1E1E1; F3F3F3; FFFFFF; 1B1B1B; 141414; 000000;*/
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Montserrat, sans-serif;
 }
-div, h1, h3, footer {
-    text-align: center;
+body {
+  background-color: #F3F3F3;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #E1E1E1;
+  background-color: #141414;
+}
+h1, .links li {
+    display: inline-block;
+    margin-left: 20px;
+}
+.links ul {
+    margin-right: 20px;
+}
+.links a {
+    text-decoration: none;
+    color: #E1E1E1;
+}
+.links a:hover {
+    opacity: 0.8;
+}
+input, select {
+  background-color: #ebc8a5;
+  border-radius: 25px;
+  padding: 4px;
+  width: 98px;
+  text-align: center;
+}
+select {
+  width: fit-content;
 }
 button {
-    margin: 0px auto 20px;
+  background-color: #C36A2D;
+  padding: 4px 10px;
+  border: none;
+  border-radius: 25px;
+  font-family: monospace;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  font-weight: 600;
+}
+button:hover {
+  background-color: rgb(37, 151, 37);
 }
