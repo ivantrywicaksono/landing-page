@@ -2,61 +2,68 @@
 ; rgb(226, 194, 117); rgb(195, 106, 45);*/
 /*#C36A2D; #E2C275; #EADCA6; #FBFBFB*/
 /*E1E1E1; F3F3F3; FFFFFF; 1B1B1B; 141414; 000000;*/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap');
+
 * {
-  margin: 0px;
-  padding: 0px;
-  font-family: Montserrat, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    font-family: Montserrat, sans-serif;
 }
 body {
-  background-color: #F3F3F3;
+    background-color: #F3F3F3;
 }
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  color: #E1E1E1;
-  background-color: #141414;
-}
-h1 {
+@media screen {
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #E1E1E1;
+        background-color: #141414;
+    }
+    h1 {
     margin-left: 20px;
-    font-size: 25px;
-}
-.links ul {
+    font-weight: 900;
+    }
+    .links ul {
     display: flex;
     justify-content: space-evenly;
     gap: 10px;
     margin-right: 20px;
-}
-.links li {list-style: none;}
-.links a {
+    }
+    .links li {list-style: none;}
+    .links a {
     text-decoration: none;
     color: #E1E1E1;
-}
-.links a:hover {
+    }
+    .links a:hover {
     opacity: 0.8;
+    }
 }
-input, select {
-  background-color: #ebc8a5;
-  border-radius: 25px;
-  padding: 4px;
-  width: 98px;
-  text-align: center;
-}
-select {
-  width: fit-content;
-}
-button {
-  background-color: #C36A2D;
-  padding: 4px 10px;
-  border: none;
-  border-radius: 25px;
-  font-family: monospace;
-}
-h3 {
-  display: flex;
-  justify-content: center;
-  font-weight: 600;
-}
-button:hover {
-  background-color: rgb(37, 151, 37);
+@media screen and (max-width: 480px){
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: #E1E1E1;
+        background-color: #141414;
+    }
+    h1 {
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: 900;
+    }
+    .links ul {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    margin-right: 5px;
+    }
+    .links li {list-style: none;}
+    .links a {
+    text-decoration: none;
+    color: #E1E1E1;
+    }
+    .links a:hover {
+    opacity: 0.8;
+    }
 }
